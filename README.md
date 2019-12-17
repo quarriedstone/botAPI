@@ -18,3 +18,13 @@ Send message to bot by sending /sendMessage with `user_id`
 
 Get last messages from bot conversation. Get message by sending /getMessage with `user_id`. You may also specify number of messages to get by specifying `limit`. If `limit` is not specified, last message is returned
 
+# Future enhancements
+1) Make registration as another service. 
+
+2) Provide token from external service. Make API as /token/<command>.
+
+3) Add Settings file.
+
+4) Add external database support.
+
+5) Make all API calls uniform, by returning JSON files in each call.
